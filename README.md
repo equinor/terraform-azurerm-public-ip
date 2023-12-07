@@ -7,7 +7,7 @@ Terraform module which creates an Azure Public IP address.
 
 ## Usage
 
-See [usage examples](./examples/).
+See [examples](examples).
 
 ## Contributing
 
