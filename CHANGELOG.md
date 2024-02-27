@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.0.1...v1.1.0) (2024-02-27)
+
+
+### Features
+
+* disable metrics by default ([#13](https://github.com/equinor/terraform-azurerm-public-ip/issues/13)) ([fb60cd5](https://github.com/equinor/terraform-azurerm-public-ip/commit/fb60cd5945f599919f5452a0d0f83fd277bf83aa))
+
 ## [1.0.1](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.0.0...v1.0.1) (2023-12-20)
 
 
