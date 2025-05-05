@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.1.0...v1.1.1) (2025-05-05)
+
+
+### Documentation
+
+* update README ([b39779d](https://github.com/equinor/terraform-azurerm-public-ip/commit/b39779d41ef53e4bf932f89c1d4785f3a524441c))
+
 ## [1.1.0](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.0.1...v1.1.0) (2024-02-27)
 
 
