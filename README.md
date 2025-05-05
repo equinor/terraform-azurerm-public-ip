@@ -41,7 +41,7 @@ resource "azurerm_resource_group" "example" {
 
 module "log_analytics" {
   source  = "equinor/log-analytics/azurerm"
-  version = "~> 2.0"
+  version = "~> 2.3"
 
   workspace_name      = "example-workspace"
   resource_group_name = azurerm_resource_group.example.name
