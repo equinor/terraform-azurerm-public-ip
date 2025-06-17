@@ -37,7 +37,6 @@ resource "azurerm_monitor_diagnostic_setting" "this" {
     content {
       # Azure expects explicit configuration of both enabled and disabled metric categories.
       category = metric.value
-      enabled  = contains(var.diagnostic_setting_enabled_metric_categories, metric.value)
     }
   }
 }
