@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.1.1...v1.1.2) (2025-06-17)
+
+
+### Bug Fixes
+
+* argument `metric` for resource `azurerm_monitor_diagnostic_setting` has been deprecated ([#21](https://github.com/equinor/terraform-azurerm-public-ip/issues/21)) ([d270738](https://github.com/equinor/terraform-azurerm-public-ip/commit/d270738aa7245a6908ab79cc468b864d49821d39))
+
 ## [1.1.1](https://github.com/equinor/terraform-azurerm-public-ip/compare/v1.1.0...v1.1.1) (2025-05-05)
 
 
