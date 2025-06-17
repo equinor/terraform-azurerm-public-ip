@@ -1,7 +1,3 @@
-locals {
-  diagnostic_setting_metric_categories = ["AllMetrics"]
-}
-
 resource "azurerm_public_ip" "this" {
   name                = var.address_name
   resource_group_name = var.resource_group_name
@@ -32,7 +28,7 @@ resource "azurerm_monitor_diagnostic_setting" "this" {
   }
 
   dynamic "enabled_metric" {
-    for_each = toset(concat(local.diagnostic_setting_metric_categories, var.diagnostic_setting_enabled_metric_categories))
+    for_each = toset(var.diagnostic_setting_enabled_metric_categories)
 
     content {
       # Azure expects explicit configuration of both enabled and disabled metric categories.
